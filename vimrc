@@ -1,12 +1,12 @@
-" Pathogen
+"" Pathogen
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 
-set nocompatible                " choose no compatibility with legacy vi
-syntax enable
-set encoding=utf-8
-set showcmd                     " display incomplete commands
 filetype plugin indent on       " load file type plugins + indentation
+set encoding=utf-8
+set nocompatible                " choose no compatibility with legacy vi
+set showcmd                     " display incomplete commands
+syntax on
 
 "" Whitespace
 set nowrap                      " don't wrap lines
